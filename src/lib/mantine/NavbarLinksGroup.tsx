@@ -11,21 +11,22 @@ interface LinksGroupProps {
 
 export const mockdata = [
 	{
-		label: "Market news",
+		label: "ピッチング",
 		initiallyOpened: true,
 		links: [
-			{ label: "Overview", link: "/test" },
-			{ label: "Forecasts", link: "/" },
-			{ label: "Outlook", link: "/" },
-			{ label: "Real time", link: "/" },
+			{ label: "防御率", link: "/era" },
+			{ label: "奪三振率", link: "/K-9" },
+			{ label: "与四死球率", link: "/BB-9" },
+			{ label: "WHIP", link: "/whip" },
 		],
 	},
 	{
-		label: "Releases",
+		label: "バッティング",
 		links: [
-			{ label: "Upcoming releases", link: "/" },
-			{ label: "Previous releases", link: "/" },
-			{ label: "Releases schedule", link: "/" },
+			{ label: "打率", link: "/avg" },
+			{ label: "長打率", link: "/slg" },
+			{ label: "出塁率", link: "/obp" },
+			{ label: "OPS", link: "/ops" },
 		],
 	},
 ];
